@@ -2,12 +2,12 @@
 
 Mikrofrontend for mulighetsrommet admin flate - Tiltaksgjennomføringer
 
-# Kom i gang
+## Kom i gang
 
 1. Bygg amt-deltakerliste-flate ved å kjøre `pnpm build`
 2. Start appen lokalt ved å kjøre `pnpm start`
 
-# Test produskjonsbygg av bare mikrofrontenden lokalt med docker
+## Test produskjonsbygg av bare mikrofrontenden lokalt med docker
 1. `pnpm build`
 2. `docker build -t amt-deltakerliste-flate .` Denne må kjøres fra rotmappa til amt-deltakerliste-flate
 3. `docker run -d -it --rm -p 8080:8080 amt-deltakerliste-flate`

@@ -1,13 +1,13 @@
 export default [
-	{
-		url: '/api/endpoint',
-		method: 'get',
-		response: () => {
-			return [
-				{
-					data: 'HEI'
-				}
-			]
-		}
-	}
+  {
+    url: '/api/endpoint',
+    method: 'get',
+    response: () => {
+      return [
+        {
+          data: 'HEI'
+        }
+      ]
+    }
+  }
 ]
