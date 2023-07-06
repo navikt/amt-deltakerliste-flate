@@ -6,7 +6,6 @@ const buildPath = path.resolve(__dirname, '../dist')
 const server = express()
 const corsAllowedOrigins = process.env.CORS_ALLOWED_ORIGINS.split(',')
 
-console.log('corsAllowedOrigins', corsAllowedOrigins)
 server.use(cors({ origin: corsAllowedOrigins }))
 
 server.use(basePath, express.static(buildPath))

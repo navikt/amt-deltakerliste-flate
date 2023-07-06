@@ -8,7 +8,7 @@ metadata:
 spec:
   env:
   - name: CORS_ALLOWED_ORIGINS
-    value: "https://www.nav.no,https://www.mulighetsrommet-admin-flate.intern.nav.no"
+    value: "https://www.nav.no,https://mulighetsrommet-admin-flate.intern.nav.no"
   image: {{ image }}
   port: 8080
   liveness:
