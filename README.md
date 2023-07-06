@@ -1,7 +1,7 @@
 # amt-deltakerliste-flate
 
 Mikrofrontend for mulighetsrommet admin flate - Tiltaksgjennomføringer
-Foreløøpig er "Deltakerliste" bak en feature-toggle "mulighetsrommet.admin-flate-vis-deltakerliste-fra-komet" i dev.
+Foreløpig er "Deltakerliste" bak en feature-toggle "mulighetsrommet.admin-flate-vis-deltakerliste-fra-komet" i dev.
 
 ## Kom i gang
 
