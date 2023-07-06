@@ -27,11 +27,8 @@ jobs:
         with:
           node-version: '20'
           cache: 'pnpm'
-          registry-url: 'https://npm.pkg.github.com/'
       - name: "Install dependencies"
         run: "pnpm install --frozen-lockfile"
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.READER_TOKEN }}
 
       - name: "Run tests"
         run: "pnpm test"
