@@ -4,7 +4,7 @@ const path = require('path')
 const basePath = '/amt/amt-deltakerliste-flate'
 const buildPath = path.resolve(__dirname, '../dist')
 const server = express()
-const corsAllowedOrigin = process.env.CORS_ALLOWED_ORIGIN
+const corsAllowedOrigin = process.env.CORS_ALLOWED_ORIGINS.split(',')
 
 server.use(cors({ origin: corsAllowedOrigin }))
 

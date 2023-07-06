@@ -7,8 +7,8 @@ metadata:
     team: amt
 spec:
   env:
-  - name: CORS_ALLOWED_ORIGIN
-    value: "https://www.intern.dev.nav.no"
+  - name: CORS_ALLOWED_ORIGINS
+    value: "https://www.intern.dev.nav.no,https://www.mulighetsrommet-admin-flate.intern.dev.nav.no"
   image: {{ image }}
   port: 8080
   liveness:
