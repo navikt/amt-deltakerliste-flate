@@ -1,5 +1,4 @@
 import React from 'react'
-import '@navikt/ds-css'
 import { Alert } from '@navikt/ds-react'
 
 const Mikrofrontend = () => {
