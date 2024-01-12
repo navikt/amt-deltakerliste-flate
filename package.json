@@ -12,7 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@navikt/ds-css": "^4.12.3",
+    "@navikt/ds-css": "^5.13.0",
     "@navikt/ds-react": "^4.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
